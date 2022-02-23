@@ -1,3 +1,9 @@
 <?php
-    echo '<h1>A</h1>', '<h1>B</h1>', '<h1>C</h1>';
+    echo 'A', 'B', 'C';
+?>
+
+<br>
+
+<?php 
+    print 'PRINT';
 ?>
