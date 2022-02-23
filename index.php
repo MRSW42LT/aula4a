@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="/aula4a/css/mdb.min.css" />
+    <link rel="stylesheet" href="/css/mdb.min.css" />
 </head>
 
 <body>
