@@ -21,3 +21,11 @@
     $vetor = array('Um', 'Dois');
     print_r($vetor);
 ?>
+
+<br><hr>
+
+<?php 
+    $nome = "João";
+    $sobrenome = "Da Silva";
+    echo "$nome, $sobrenome";
+?>
