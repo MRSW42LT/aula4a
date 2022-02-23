@@ -2,8 +2,15 @@
     echo 'A', 'B', 'C';
 ?>
 
-<br>
+<br><hr>
 
 <?php 
     print 'PRINT';
+?>
+
+<br><hr>
+
+<?php 
+    $vetor = array('Um', 'Dois');
+    var_dump($vetor);
 ?>
