@@ -93,11 +93,12 @@ echo 'A', 'B', 'C';
 <br><hr>
 
 <?php
-    $e = 0
+    $e = 0;
     //zero sempre é igual a false;
     if ($e == FALSE){
         echo '$e é false';
-    }//testa se 0 é do tipo false;
+    }
+    //testa se 0 é do tipo false;
 
     if ($e === FALSE){
         echo '$e é do tipo FALSE';
