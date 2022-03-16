@@ -64,6 +64,19 @@ echo 'A', 'B', 'C';
     echo $a + 5;    //resultado = 15
 ?>
 
+<br><hr>
+
+<?php
+    $a = 123;
+    $b = '123';
+
+    if($a == $b){
+        echo '$a e $b são iguais';
+    } elseif ($a != $b) {
+        echo '$a e $b são diferentes';
+    }
+?>
+
   </div>
 
 
