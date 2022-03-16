@@ -35,6 +35,13 @@
 <?php 
     $a = 2;
     $b = 4;
-    echo $a+3*4+5*$b."<br>";       //resultado = 34
-    echo ($a + 3)*4+(5*$b); //resultado = 40
+    echo $a+3*4+5*$b."<br>";        //resultado = 34
+    echo ($a + 3)*4+(5*$b);         //resultado = 40
+?>
+
+<br><hr>
+
+<?php
+    $a = '10';
+    echo $a + 5;    //resultado = 15
 ?>
