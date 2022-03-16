@@ -48,7 +48,7 @@ echo 'A', 'B', 'C';
     echo "$nome, $sobrenome";
 ?>
 
-<br><br><br><br>
+<br><hr>
 
 <?php 
     $a = 2;
@@ -73,6 +73,17 @@ echo 'A', 'B', 'C';
     if($a == $b){
         echo '$a e $b são iguais';
     } elseif ($a != $b) {
+        echo '$a e $b são diferentes';
+    }
+?>
+
+<?php
+    $a = 123;
+    $b = '123';
+
+    if($a === $b){
+        echo '$a e $b são iguais';
+    } elseif ($a !== $b) {
         echo '$a e $b são diferentes';
     }
 ?>
