@@ -11,55 +11,60 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <div style="width: 500px;
+  margin: auto;">
 
-    <?php
-    echo 'A', 'B', 'C';
-    ?>
+<h1>Hello, world!</h1>
 
-    <br><hr>
+<?php
+echo 'A', 'B', 'C';
+?>
 
-    <?php 
-        print 'PRINT';
-    ?>
+<br><hr>
 
-    <br><hr>
+<?php 
+    print 'PRINT';
+?>
 
-    <?php 
-        $vetor = array('Um', 'Dois');
-        var_dump($vetor);
-    ?>
+<br><hr>
 
-    <br><hr>
+<?php 
+    $vetor = array('Um', 'Dois');
+    var_dump($vetor);
+?>
 
-    <?php 
-        $vetor = array('Um', 'Dois');
-        print_r($vetor);
-    ?>
+<br><hr>
 
-    <br><hr>
+<?php 
+    $vetor = array('Um', 'Dois');
+    print_r($vetor);
+?>
 
-    <?php 
-        $nome = "João";
-        $sobrenome = "Da Silva";
-        echo "$nome, $sobrenome";
-    ?>
+<br><hr>
 
-    <br><br><br><br>
+<?php 
+    $nome = "João";
+    $sobrenome = "Da Silva";
+    echo "$nome, $sobrenome";
+?>
 
-    <?php 
-        $a = 2;
-        $b = 4;
-        echo $a+3*4+5*$b."<br>";        //resultado = 34
-        echo ($a + 3)*4+(5*$b);         //resultado = 40
-    ?>
+<br><br><br><br>
 
-    <br><hr>
+<?php 
+    $a = 2;
+    $b = 4;
+    echo $a+3*4+5*$b."<br>";        //resultado = 34
+    echo ($a + 3)*4+(5*$b);         //resultado = 40
+?>
 
-    <?php
-        $a = '10';
-        echo $a + 5;    //resultado = 15
-    ?>
+<br><hr>
+
+<?php
+    $a = '10';
+    echo $a + 5;    //resultado = 15
+?>
+
+  </div>
 
 
 </body>
