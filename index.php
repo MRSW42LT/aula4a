@@ -8,116 +8,133 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/css/mdb.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
 </head>
 
 <body>
-    <div style="width: 500px;
+    <div style="width: 900px;
   margin: auto;">
 
-<h1>Hello, world!</h1>
+    <h1>Hello, world!</h1>
 
-<?php
-echo 'A', 'B', 'C';
-?>
 
-<br><hr>
+    <?php 
+        print 'PRINT';
+    ?>
 
-<?php 
-    print 'PRINT';
-?>
+    <br><hr>
 
-<br><hr>
+    <?php 
+        $vetor = array('Um', 'Dois');
+        var_dump($vetor);
+    ?>
 
-<?php 
-    $vetor = array('Um', 'Dois');
-    var_dump($vetor);
-?>
+    <br><hr>
 
-<br><hr>
+    <?php 
+        $vetor = array('Um', 'Dois');
+        print_r($vetor);
+    ?>
 
-<?php 
-    $vetor = array('Um', 'Dois');
-    print_r($vetor);
-?>
+    <br><hr>
 
-<br><hr>
+    <?php 
+        $nome = "João";
+        $sobrenome = "Da Silva";
+        echo "$nome, $sobrenome";
+    ?>
 
-<?php 
-    $nome = "João";
-    $sobrenome = "Da Silva";
-    echo "$nome, $sobrenome";
-?>
+    <br><hr>
 
-<br><hr>
+    <?php 
+        $a = 2;
+        $b = 4;
+        echo $a+3*4+5*$b."<br>";        //resultado = 34
+        echo ($a + 3)*4+(5*$b);         //resultado = 40
+    ?>
 
-<?php 
-    $a = 2;
-    $b = 4;
-    echo $a+3*4+5*$b."<br>";        //resultado = 34
-    echo ($a + 3)*4+(5*$b);         //resultado = 40
-?>
+    <br><hr>
 
-<br><hr>
+    <?php
+        $a = '10';
+        echo $a + 5;    //resultado = 15
+    ?>
 
-<?php
-    $a = '10';
-    echo $a + 5;    //resultado = 15
-?>
+    <br><hr>
 
-<br><hr>
+    <?php
+        $a = 123;
+        $b = '123';
 
-<?php
-    $a = 123;
-    $b = '123';
+        if($a == $b){
+            echo '$a e $b são iguais';
+        } elseif ($a != $b) {
+            echo '$a e $b são diferentes';
+        }
+    ?>
 
-    if($a == $b){
-        echo '$a e $b são iguais';
-    } elseif ($a != $b) {
-        echo '$a e $b são diferentes';
-    }
-?>
+    <br><hr>
 
-<br><hr>
+    <?php
+        $a = 123;
+        $b = '123';
 
-<?php
-    $a = 123;
-    $b = '123';
+        if($a === $b){
+            echo '$a e $b são iguais';
+        } elseif ($a !== $b) {
+            echo '$a e $b são diferentes';
+        }
+    ?>
 
-    if($a === $b){
-        echo '$a e $b são iguais';
-    } elseif ($a !== $b) {
-        echo '$a e $b são diferentes';
-    }
-?>
+    <br><hr>
 
-<br><hr>
+    <?php
+        $e = 0;
+        //zero sempre é igual a false;
+        if ($e == FALSE){
+            echo '$e é false';
+        }
+        //testa se 0 é do tipo false;
 
-<?php
-    $e = 0;
-    //zero sempre é igual a false;
-    if ($e == FALSE){
-        echo '$e é false';
-    }
-    //testa se 0 é do tipo false;
+        if ($e === FALSE){
+            echo '$e é do tipo FALSE';
+        }
+        if ($e === 0){
+            echo '$e é zero';
+        }
+    ?>
 
-    if ($e === FALSE){
-        echo '$e é do tipo FALSE';
-    }
-    if ($e === 0){
-        echo '$e é zero';
-    }
-?>
+    <br><hr>
 
-<br><hr>
+    <?php
+        $vai_chover = TRUE;
+        $esta_frio =  TRUE;
 
-<?php
-    $vai_chover = TRUE;
-    $esta_frio =  TRUE;
+        if ($vai_chover and $esta_frio){
+            echo "Não vou sair de casa";
+        }
+    ?>
 
-    if ($vai_chover and $esta_frio){
-        echo "Não vou sair de casa";
-    }
-?>
+    <br><hr>
+
+    <?php
+        class Computador {
+            var $cpu;
+            function ligar(){
+                echo "Ligando computador a {$this->cpu}...";
+            }
+        }
+        $obj = new Computador;
+        $obj -> cpu = "2.3Ghz";
+        $obj -> ligar();
+    ?>
+
+    <br><hr>
+
+    <?php
+        define
+    ?>
 
   </div>
 
