@@ -160,9 +160,9 @@
     <br><hr>
     
         <div class="row">
-            <div class="col-4">
+            <div class="col">
                 <?php
-                for ($i=1; $i <= 5; $i++)
+                for ($i=1; $i <= 2; $i++)
                 {
                     print "<br>";
                     for ($j = 1; $j <=10; $j++)
@@ -173,9 +173,48 @@
                 }
                 ?>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <?php
-                for ($i=6; $i <= 10; $i++)
+                for ($i=3; $i <= 4; $i++)
+                {
+                    print "<br>";
+                    for ($j = 1; $j <=10; $j++)
+                    {
+                        $resp = $i * $j;
+                        print $i."X".$j."= $resp <br>";
+                    }
+                }
+                ?>
+            </div>
+            <div class="col">
+                <?php
+                for ($i=5; $i <= 6; $i++)
+                {
+                    print "<br>";
+                    for ($j = 1; $j <=10; $j++)
+                    {
+                        $resp = $i * $j;
+                        print $i."X".$j."= $resp <br>";
+                    }
+                }
+                ?>
+            </div>
+            <div class="col">
+                <?php
+                for ($i=7; $i <= 8; $i++)
+                {
+                    print "<br>";
+                    for ($j = 1; $j <=10; $j++)
+                    {
+                        $resp = $i * $j;
+                        print $i."X".$j."= $resp <br>";
+                    }
+                }
+                ?>
+            </div>
+            <div class="col">
+                <?php
+                for ($i=9; $i <= 10; $i++)
                 {
                     print "<br>";
                     for ($j = 1; $j <=10; $j++)
