@@ -253,7 +253,10 @@
     <br><hr>
 
     <?php
-        
+        $fruta = array("maçã", "laranja", "pêra", "banana");
+        foreach ($fruta as $valor) {
+            print "$valor -";
+        }
     ?>
 
     </div>
