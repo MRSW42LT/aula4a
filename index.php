@@ -175,10 +175,10 @@
             </div>
             <div class="col-4">
                 <?php
-                for ($i=1; $i <= 6; $i++)
+                for ($i=1; $i <= 10; $i++)
                 {
                     print "<br>";
-                    for ($j = 1; $j <=10; $j++)
+                    for ($j = 1; $j <=6; $j++)
                     {
                         $resp = $i * $j;
                         print $i."X".$j."= $resp <br>";
@@ -188,6 +188,12 @@
             </div>
         </div>
         
+    <br><hr>
+
+    <?php
+
+    ?>
+                
     <br><hr>
 
     <?php
