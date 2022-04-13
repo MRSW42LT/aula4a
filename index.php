@@ -159,11 +159,10 @@
 
     <br><hr>
     
-    <div class="row">
         <?php
         for ($i=1; $i <= 10; $i++)
         {
-            print "  <div class="col">  ";
+            print "  ";
             for ($j = 1; $j <=10; $j++)
             {
                 $resp = $i * $j;
