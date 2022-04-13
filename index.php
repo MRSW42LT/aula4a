@@ -158,18 +158,20 @@
     ?>
 
     <br><hr>
-
-    <?php
-    for ($i=1; $i <= 10; $i++)
-    {
-        print "<br>";
-        for ($j = 1; $j <=10; $j++)
+    
+    <div class="row">
+        <?php
+        for ($i=1; $i <= 10; $i++)
         {
-            $resp = $i * $j;
-            print $i."X".$j."= $resp <br>";
+            print "  <div class="col">  ";
+            for ($j = 1; $j <=10; $j++)
+            {
+                $resp = $i * $j;
+                print $i."X".$j."= $resp <br>";
+            }
         }
-    }
-    ?>
+        ?>
+    </div>
         
     <br><hr>
 
